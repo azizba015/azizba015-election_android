@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/accueil"
+            android:icon="@drawable/ic_desktop"
+            android:title="@string/accueil" />
+        <item
+            android:id="@+id/dec"
+            android:icon="@drawable/ic_close_black_24dp"
+            android:title="@string/deconnecter" />
+    </group>
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tek_up_glsi2_n.resultat_election">
+
+    <application
+        android:icon="@mipmap/election"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/election"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name="com.tek_up_glsi2_n.resultat_election.cree_compte" />
+        <activity android:name="com.tek_up_glsi2_n.resultat_election.ajouter_election"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.tek_up_glsi2_n.resultat_election.ajouter_choix"/>
+        <activity android:name="com.tek_up_glsi2_n.resultat_election.list_choix_admin"/>
+        <activity android:name="com.tek_up_glsi2_n.resultat_election.liste_election_admin"/>
+        <activity android:name="com.tek_up_glsi2_n.resultat_election.fin_elec"/>
+        <activity android:name="com.tek_up_glsi2_n.resultat_election.res_elec"/>
+        <activity android:name="com.tek_up_glsi2_n.resultat_election.list_choix"/>
+        <activity android:name="com.tek_up_glsi2_n.resultat_election.liste_election"/>
+        <activity android:name="com.tek_up_glsi2_n.resultat_election.login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
